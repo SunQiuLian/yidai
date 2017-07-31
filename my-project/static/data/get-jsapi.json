@@ -1,0 +1,11 @@
+{
+    "status": 0,
+    "msg": "成功",
+    "data": {
+        "appid": "wx0e782abd200c64e9",
+        "nonceStr": "UkrOK766Z6fanSJR",
+        "sign": "f90dd3cd68e948dde77ebbcb74805a9d726fb3cc",
+        "timestamp": 1501463057,
+        "url": "http://m.estay.com/"
+    }
+}
