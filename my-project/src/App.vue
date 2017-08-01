@@ -4,7 +4,7 @@
       <div>
           <img src="./assets/logo.png">
       </div>
-      <h1>{{ msg }}</h1>
+      <a href="./static/html/denglu.html">{{ msg }}</a>
     </div>
    
     <router-view></router-view>
@@ -19,10 +19,18 @@ export default {
       msg: '登录'
     }
   }
+  // methods:{
+  //   btn:function(){
+  //     alert(1)
+  //   }
+  // }
 }
 </script>
 
 <style>
+body{
+  background: #fff;
+}
 .top {
   width: 100%;
   display: flex;
@@ -34,6 +42,6 @@ export default {
   width:50%;
 }
 .top img{
-  width: 100%;padding: 10px;
+  width: 100%;padding: 10px;padding-left: 0;
 }
 </style>

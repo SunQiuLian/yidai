@@ -1,10 +1,13 @@
 
 <template>
   <div class="hello">
-      <div class="swiper-wrapper">  
-        <div class="swiper-slide"  v-for='val in msg'><img :src="val"></div>  
-      </div> 
-      <center>全部目的地</center>
+      <swiper :options="swiperOption" ref="mySwiper">
+        <!-- slides -->
+        <swiper-slide  v-for='val in msg'><img :src="val" alt="" class="lun"></swiper-slide>        
+        <!-- Optional controls -->
+        <div class="swiper-pagination"  slot="pagination"></div>
+     </swiper 
+     <p><center>全部目的地</center></p>
       <div class="all">
         <ul>
           <li v-for='val in dz'>{{val}}</li>
@@ -12,7 +15,9 @@
         <dl>
           <div v-for='val in dzjson'>
             <dt>{{val.title}}</dt>
-            <dd><img :src="val.imgsrc">
+            <dd>
+                <a href="./static/html/huangshan.html">
+                <img :src="val.imgsrc"></a>
                 <p>{{val.tit}}</p>
             </dd>
           </div>
@@ -21,13 +26,19 @@
   </div>
 
 </template>
-<!-- 轮播图 -->
 
 <script>
+import { swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
   name: 'hello',
   data () {
     return {
+      swiperOption: {
+            autoplay : 2000,
+            loop : true,
+            pagination : '.swiper-pagination',
+            autoplayDisableOnInteraction:true
+        },
       msg: ['static/images/-606323556.jpg','static/images/-989917335.jpg','static/images/1493993325.jpg','static/images/1845785504.jpg'],
       dz:['安徽','北京','重庆','福建','广西','广东','海南','湖北','黑龙江','宁夏','陕西','山东'],
       dzjson:[  
@@ -90,15 +101,10 @@ export default {
     }
   }
 }
-var mySwiper = new Swiper ('.swiper-container', {  
-    direction: 'horizontal',  
-    loop: true,  
-    autoplay:2000,       
-  }) 
 
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+Add "scoped" attribute to limit CSS to this component only
 <style scoped>
 .hello{
   width: 100%;overflow: hidden;
@@ -113,7 +119,7 @@ var mySwiper = new Swiper ('.swiper-container', {
   display: flex;height: 540px;overflow: hidden;
 }
 .all ul{
-  width: 25%;background: #ccc;text-align: center;line-height: 45px;
+  width: 25%;background: #f7f7f7;text-align: center;line-height: 45px;
 }
 .all ul li:hover{
   background: #fff;
@@ -134,3 +140,37 @@ var mySwiper = new Swiper ('.swiper-container', {
   line-height: 40px;
 }
 </style>
+
+<!-- <template>
+  <div>
+    <swiper :options="swiperOption" ref="mySwiper" style="margin-top: 49px;">
+      slides
+      <swiper-slide><img src="static/images/-606323556.jpg" alt="" class="lun"></swiper-slide>
+      <swiper-slide><img src="static/images/-989917335.jpg" alt=""  class="lun"></swiper-slide>
+      <swiper-slide><img src="static/images/-606323556.jpg" alt="" class="lun"></swiper-slide>
+      <swiper-slide><img src="static/images/-989917335.jpg" alt="" class="lun"></swiper-slide>
+      
+      Optional controls
+     <div class="swiper-pagination"  slot="pagination"></div>
+   </swiper>
+ </div>
+</template>
+<script>
+
+  import { swiper, swiperSlide } from 'vue-awesome-swiper'
+  export default {
+    name :'hello',
+    data () {
+       return {
+        swiperOption: {
+            autoplay : 2000,
+            loop : true,
+            // pagination : '.swiper-pagination',
+            autoplayDisableOnInteraction:true
+        }
+
+       }
+    }  
+  }
+
+</script> -->
