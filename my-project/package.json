@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "my-project",
   "version": "1.0.0",
   "description": "A Vue.js project",
@@ -19,7 +18,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
-    "axios": "^0.16.2",
     "babel-core": "^6.22.1",
     "babel-loader": "^7.1.1",
     "babel-plugin-istanbul": "^4.1.1",
@@ -87,15 +85,4 @@
     "last 2 versions",
     "not ie <= 8"
   ]
-=======
-  "name": "xm-ydgy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
->>>>>>> 84e29055c83702e94e55f4b9039516469c071aac
 }

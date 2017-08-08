@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style type="text/css">
+		 *{
+			margin: 0;padding: 0;
+		}
+		header{padding: 0 10px;
+			display: flex;justify-content: space-between;height: 49px;border-bottom: 1px solid #ccc;line-height: 49px;
+		}
+		.tab{
+			display: flex;
+		}
+		.tab div{
+			width: 25%;text-align: center;line-height: 40px;background: #f7f7f7;height: 100%;
+		}
+		.tab div p{
+			border-bottom: 1px solid #ccc;
+		}
+		.tab ul{
+			padding:0 10px;line-height: 40px;width: 75%;
+		}
+		.tab ul li{
+			border-bottom: 1px solid #ccc;width: 100%;
+		}
+		.tab ul{
+			display:none;
+		}
+		.tab div p:hover{
+			background: #fff;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<p><</p>
+		<p>筛选</p>
+		<p>确定</p>
+	</header>
+	<section class="tab">
+			<div>
+				<p>房型</p>
+				<p>价格</p>
+				<p>公寓</p>
+			</div>
+			<ul style="display: block">
+				<li>不限</li>
+				<li>一室大床</li>
+				<li>一室双床房</li>
+				<li>套房</li>
+				<li>别墅</li>
+			</ul>
+			<ul class="hide">
+				<li>不限</li>
+				<li>￥200以下</li>
+				<li>￥200-￥299</li>
+				<li>￥300-￥499</li>
+				<li>￥500以上</li>
+			</ul>
+			<ul class="hide">
+				<li>一呆云居.黄山湖景半岛</li>
+			</ul>
+		</section>
+</body>
+<script type="text/javascript">
+	function Div(){
+			this.btn = document.querySelectorAll(".tab div p");
+			this.box = document.querySelectorAll(".tab ul");
+			var that = this;
+			this.color = function(){
+				for(var i = 0; i < this.btn.length; i++){
+					this.btn[i].index = i;
+					this.btn[i].onclick = function(){
+						for(var j = 0; j < that.box.length; j++){
+							that.box[j].style.display = "none"
+						}
+						that.box[this.index].style.display = "block"
+					}
+				}
+			}
+		}
+		var obj = new Div();
+		obj.color();
+</script>
+</html>
