@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # my-project
 
 > A Vue.js project
@@ -32,3 +33,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 =======
 # yidai
 >>>>>>> 84e29055c83702e94e55f4b9039516469c071aac
+=======
+# yidai
+>>>>>>> d956f021bc4a9b8d39d6d66b1d78635f2a78d219
