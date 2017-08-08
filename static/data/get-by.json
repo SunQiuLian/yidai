@@ -1,0 +1,120 @@
+{
+    "status": 0,
+    "msg": "成功",
+    "data": {
+        "city_id": 1302,
+        "city_name": "黄山",
+        "apartment_id": 58513,
+        "apartment_name": "一呆云居·黄山湖景半岛   ",
+        "room_type_id": 406327,
+        "room_type_name": "缤纷家庭房",
+        "apartment_desc": null,
+        "apartment_tips": null,
+        "room_type_desc": "",
+        "room_type_mini_desc": "带给您极致的入住体验",
+        "room_type_tips": "",
+        "contact_telephone": "0559-8597008",
+        "longitude": 118.125011,
+        "latitude": 30.395934,
+        "map_type": 1,
+        "min_area": 22,
+        "max_area": 42,
+        "enters_number": 3,
+        "bedroom_count": 2,
+        "sitting_room_count": 0,
+        "kitchen_count": 0,
+        "bathroom_count": 1,
+        "balcony_count": 0,
+        "bed_count": 2,
+        "comment_avg_score": 0,
+        "intro": {
+            "cover_desc": "您可以舒适的在房间里放松身心。这里温馨雅致，设备齐全。宽敞的环境中给予了最佳舒适度，洗去您一身的疲惫。",
+            "cover_image": "http://cdnpic.estay.com/upload/BannerPic/2017/07/11/1499739875.jpeg",
+            "desc_url": "http://m.estay.com/public/html/featuredes/featuredes_406327.html"
+        },
+        "address": "龙门乡龙门村河西组 ，近S322省道",
+        "apartment_type": 0,
+        "is_franchise": 1,
+        "price": 341,
+        "is_standard_price": 1,
+        "standard_price": 341,
+        "basic_price": 388,
+        "fully_booked_type": {
+            "key": 0,
+            "value": ""
+        },
+        "images": [
+            "http://cdnpic.estay.com/upload/RoomPic/2017/07/11/1499739602.jpeg",
+            "http://cdnpic.estay.com/upload/RoomPic/2017/07/11/1499739744.jpeg",
+            "http://cdnpic.estay.com/upload/ApartmentPic/2017/07/05/1499247556.jpg",
+            "http://cdnpic.estay.com/upload/ApartmentPic/2017/07/05/1499248710.jpg",
+            "http://cdnpic.estay.com/upload/ApartmentPic/2017/07/05/1499248758.jpeg",
+            "http://cdnpic.estay.com/upload/ApartmentPic/2017/07/05/1499248798.jpg",
+            "http://cdnpic.estay.com/upload/ApartmentPic/2017/07/05/1499248813.jpg"
+        ],
+        "apartment_tags": [
+            {
+                "tag_id": 85,
+                "tag_name": "秀丽湖景"
+            }
+        ],
+        "room_type_tags": [
+            {
+                "tag_id": 12,
+                "tag_name": "亲子度假"
+            }
+        ],
+        "apartment_amenities": [],
+        "room_type_amenities": [
+            {
+                "amenity_name": "毛巾",
+                "icon": "Washcloth"
+            },
+            {
+                "amenity_name": "拖鞋",
+                "icon": "Slipper"
+            },
+            {
+                "amenity_name": "WIFI",
+                "icon": "WIFI"
+            },
+            {
+                "amenity_name": "24h热水",
+                "icon": "HotWater"
+            },
+            {
+                "amenity_name": "洗漱用品",
+                "icon": "Toiletries"
+            },
+            {
+                "amenity_name": "空调",
+                "icon": "Air-Condition"
+            },
+            {
+                "amenity_name": "电视",
+                "icon": "Television"
+            },
+            {
+                "amenity_name": "热水壶",
+                "icon": "SpeedyKettle"
+            }
+        ],
+        "bed_types": [
+            {
+                "bed_type_id": 1,
+                "size": "1.8m*2.0m",
+                "count": 1,
+                "name": "大床"
+            },
+            {
+                "bed_type_id": 15,
+                "size": "1.3m*2.0m",
+                "count": 2,
+                "name": "单人床"
+            }
+        ],
+        "first_comment": null,
+        "comment_count": 0,
+        "distance": 0
+    }
+}

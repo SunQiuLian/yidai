@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;padding: 0;
+		}
+		header{padding: 0 10px;
+			display: flex;justify-content: space-between;height: 49px;border-bottom: 1px solid #ccc;line-height: 49px;
+		}
+		header img{
+			width: 18px;height: 24px;margin-top: 13px;
+		}
+		.wrap{
+			padding: 0 20px;
+		}
+		.tl, .pas{
+			width: 100%;border: 0;border-bottom: 1px solid #ccc;line-height: 55px;font-size: 16px;outline: none;
+		}
+		.btn{
+			width: 100%;height: 45px;background: blue;color: #fff;font-size: 14px;border-radius: 5px;margin-top: 20px;
+		}
+		.zczh{
+			width: 100%;display: flex;justify-content: space-between;
+		}
+		.zczh a{
+			text-decoration: none;line-height: 40px;
+		}
+		.sm{
+			color: #666;
+		}
+		.sm small{
+			position: fixed;bottom: 10px;left: 40px;
+		}
+		.sm span{
+			color: blue;
+		}
+		.sm div{
+			display: flex;
+		}		
+	</style>
+	<link rel="stylesheet" type="text/css" href="../../static/css/slide.css">
+</head>
+<body>
+ 	<nav class="sideBar">
+        <ul>
+            <li><a href="/" class="home">首页</a></li>
+            <li id="loginInfoWrap">
+                <span class="sider-mine" @click='main'>
+                    我的一呆<span>(未登录)</span>
+                </span>
+            </li>
+            <li><a href="../../static/html/money.html">赚钱邀请卡</li>
+            
+            <li><a href="../../static/html/btn.html" class="down-load">下载APP</a></li>
+        </ul>
+    </nav>
+	<header>
+		<p><</p>
+		<p>手机验证登录</p>
+		<img src="../../static/images/main/icon_nav-caidan.png">
+	</header>
+	<section>
+		<form class="wrap" action="../../index.html" onsubmit="return box()">
+			<input type="tel" name="" placeholder="请输入手机号" class="tl">
+			<input type="password" name="" placeholder="请输入密码" class="pas">
+			<input type="submit" class="btn" value="登录">
+			<div class="zczh"><p class="sp"></p><a href="###">注册账号</a></div>
+		</form>	
+	</section>
+	<footer class="sm">
+		<p><center>第三方账号登录</center></p>
+		<img src="">
+		<small>未注册一呆账号的手机，登录时将自动<br>注册一呆账号，且代表您已同意<span>《一呆<br><center>服务条款》</center></span></small>
+	</footer>
+</body>
+<script type="text/javascript" src='../../static/js/jquery-3.1.1.js'></script>
+<script type="text/javascript">
+			var tl = document.querySelector(".tl");
+			var sp = document.querySelector(".sp");
+			var pas = document.querySelector(".pas");
+			var btn = document.querySelector(".btn");
+			var pasReg = /^\w{8,16}$/;
+			var pasbol = false;
+			pas.onblur = function(){
+				sp.innerHTML = "";
+				var pasValue = pas.value;
+					if(pasValue == "") {
+						// alert(1)
+						sp.innerHTML = "密码不能为空！";
+						sp.style.color = "red";
+						console.log(3)
+
+						pasbol = false;
+						return false;
+					}
+				    if(!pasReg.test(pasValue)) {
+						sp.innerHTML ="密码格式不正确";
+						sp.style.color = "red";
+						console.log(4)
+						// alert(2)
+						pasbol = false;
+						return false;
+					}
+				pasbol = true;
+			}
+
+
+			var tlReg = /^1[3,5,7,8]\d{9}$/;
+			var tlbol = false;
+			tl.onblur = function(){
+				sp.innerHTML = "";
+				var tlValue = tl.value;
+					if(tlValue == "") {
+						sp.innerHTML = "手机号码不能为空！";
+						sp.style.color = "red";
+						tlbol = false;
+						return false;
+					}
+				    if(!tlReg.test(tlValue)) {
+						sp.innerHTML ="手机号码格式不正确";
+						sp.style.color = "red";
+						tlbol = false;
+						return false;
+					}
+				tlbol = true;
+			}
+
+
+			btn.onclick = function box() {
+				var bol = tlbol&&pasbol&&btnbol;
+				return bol;
+							var num = $('.tl').val();
+		    	var pasd = $('.pas').val();
+		    	console.log(num);
+		  $.post('http://localhost:2403/yidai',{
+			    username:num,
+			    password:pasd
+  			},function (data) {
+		    	console.log(data);		    		    
+		    }) 
+
+			}
+		</script>
+</html>

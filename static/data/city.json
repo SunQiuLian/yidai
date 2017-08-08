@@ -1,0 +1,287 @@
+{
+    "status": 0,
+    "msg": "成功",
+    "data": {
+        "hot_city_list": [
+            {
+                "city_id": 2001,
+                "city_name": "广州",
+                "image_src": "http://cdnpic.estay.com/upload/HotCity/2016/8/-104483268.jpg",
+                "map_type": 1,
+                "large_image_src": "http://cdnpic.estay.com/upload/HotCityBig/2016/7/1465059896.jpg"
+            },
+            {
+                "city_id": 2010,
+                "city_name": "惠州",
+                "image_src": "http://cdnpic.estay.com/upload/HotCity/2016/8/-487899710.jpg",
+                "map_type": 1,
+                "large_image_src": "http://cdnpic.estay.com/upload/HotCityBig/2016/7/-516011561.jpg"
+            },
+            {
+                "city_id": 2003,
+                "city_name": "深圳",
+                "image_src": "http://cdnpic.estay.com/upload/HotCity/2016/8/-1338959501.jpg",
+                "map_type": 1,
+                "large_image_src": "http://cdnpic.estay.com/upload/HotCityBig/2016/7/1048042457.jpg"
+            },
+            {
+                "city_id": 2020,
+                "city_name": "阳江",
+                "image_src": "http://cdnpic.estay.com/upload/HotCity/2016/8/-1864396741.jpg",
+                "map_type": 1,
+                "large_image_src": "http://cdnpic.estay.com/upload/HotCityBig/2016/7/-1241891446.jpg"
+            },
+            {
+                "city_id": 2523,
+                "city_name": "玉溪",
+                "image_src": "http://cdnpic.estay.com/upload/HotCity/2016/8/-569650616.jpg",
+                "map_type": 1,
+                "large_image_src": "http://cdnpic.estay.com/upload/HotCityBig/2016/7/1840962335.jpg"
+            },
+            {
+                "city_id": 1605,
+                "city_name": "威海",
+                "image_src": "http://cdnpic.estay.com/upload/HotCity/2016/8/-835031998.jpg",
+                "map_type": 1,
+                "large_image_src": "http://cdnpic.estay.com/upload/HotCityBig/2016/8/-975614437.jpg"
+            }
+        ],
+        "province_list": [
+            {
+                "id": 1300,
+                "name": "安徽",
+                "pinyin_short": "A",
+                "city_list": [
+                    {
+                        "id": 1302,
+                        "name": "黄山",
+                        "pinyin_short": "H",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 100,
+                "name": "北京",
+                "pinyin_short": "B",
+                "city_list": [
+                    {
+                        "id": 101,
+                        "name": "北京",
+                        "pinyin_short": "B",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 400,
+                "name": "重庆",
+                "pinyin_short": "C",
+                "city_list": [
+                    {
+                        "id": 401,
+                        "name": "重庆",
+                        "pinyin_short": "C",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 1400,
+                "name": "福建",
+                "pinyin_short": "F",
+                "city_list": [
+                    {
+                        "id": 1403,
+                        "name": "泉州",
+                        "pinyin_short": "Q",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 2100,
+                "name": "广西",
+                "pinyin_short": "G",
+                "city_list": [
+                    {
+                        "id": 2103,
+                        "name": "北海",
+                        "pinyin_short": "B",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2108,
+                        "name": "梧州",
+                        "pinyin_short": "W",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 2000,
+                "name": "广东",
+                "pinyin_short": "G",
+                "city_list": [
+                    {
+                        "id": 2001,
+                        "name": "广州",
+                        "pinyin_short": "G",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2010,
+                        "name": "惠州",
+                        "pinyin_short": "H",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2020,
+                        "name": "阳江",
+                        "pinyin_short": "Y",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 2200,
+                "name": "海南",
+                "pinyin_short": "H",
+                "city_list": [
+                    {
+                        "id": 2202,
+                        "name": "海口",
+                        "pinyin_short": "H",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2212,
+                        "name": "文昌",
+                        "pinyin_short": "W",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2203,
+                        "name": "万宁",
+                        "pinyin_short": "W",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 1800,
+                "name": "湖北",
+                "pinyin_short": "H",
+                "city_list": [
+                    {
+                        "id": 1820,
+                        "name": "咸宁",
+                        "pinyin_short": "X",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 1000,
+                "name": "黑龙江",
+                "pinyin_short": "H",
+                "city_list": [
+                    {
+                        "id": 1012,
+                        "name": "佳木斯",
+                        "pinyin_short": "J",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 2900,
+                "name": "宁夏",
+                "pinyin_short": "N",
+                "city_list": [
+                    {
+                        "id": 2901,
+                        "name": "银川",
+                        "pinyin_short": "Y",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 2700,
+                "name": "陕西",
+                "pinyin_short": "S",
+                "city_list": [
+                    {
+                        "id": 2710,
+                        "name": "华山",
+                        "pinyin_short": "H",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2708,
+                        "name": "渭南",
+                        "pinyin_short": "W",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 1600,
+                "name": "山东",
+                "pinyin_short": "S",
+                "city_list": [
+                    {
+                        "id": 1601,
+                        "name": "青岛",
+                        "pinyin_short": "Q",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 1605,
+                        "name": "威海",
+                        "pinyin_short": "W",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 1604,
+                        "name": "烟台",
+                        "pinyin_short": "Y",
+                        "map_type": 1
+                    }
+                ]
+            },
+            {
+                "id": 2500,
+                "name": "云南",
+                "pinyin_short": "Y",
+                "city_list": [
+                    {
+                        "id": 2505,
+                        "name": "大理",
+                        "pinyin_short": "D",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2503,
+                        "name": "丽江",
+                        "pinyin_short": "L",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2507,
+                        "name": "西双版纳",
+                        "pinyin_short": "X",
+                        "map_type": 1
+                    },
+                    {
+                        "id": 2523,
+                        "name": "玉溪",
+                        "pinyin_short": "Y",
+                        "map_type": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

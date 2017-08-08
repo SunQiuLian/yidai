@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		 *{
+			margin: 0;padding: 0;
+		}
+		body{
+			background: #f7f7f7;
+		}
+		header{padding: 0 10px;background: #fff;
+			display: flex;justify-content: space-between;height: 49px;border-bottom: 1px solid #f7f7f7;line-height: 49px;
+		}
+		header img{
+			width: 18px;height: 24px;margin-top: 13px;
+		}
+		.all{
+			display: flex;justify-content: space-around;line-height: 40px;
+		}
+		.all a{
+			text-decoration: none;display: block;
+		}
+		.all a:hover{
+			border-bottom: 1px solid blue;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<p><</p>
+		<p>我的订单</p>
+		<img src="../../static/images/main/icon_nav-caidan.png" ng-click="show()">
+	</header>
+	<div class="all">
+		<a href="###">全部</a>|
+		<a href="###">待支付</a>|
+		<a href="###">带入住</a>|
+		<a href="###">待点评</a>
+	</div>
+</body>
+</html>

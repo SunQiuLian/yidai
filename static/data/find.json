@@ -1,0 +1,46 @@
+{
+    "status": 0,
+    "msg": "成功",
+    "data": [
+        {
+            "name": "夏日大促活动",
+            "url": "http://m.estay.com/activity/activity_54.html",
+            "client": "[1,2,3,4]",
+            "image_src": "http://cdnpic.estay.com/upload/BannerPic/2017/07/24/1500877987.jpeg",
+            "description": "",
+            "sort_order": 1
+        },
+        {
+            "name": "白银会员升级",
+            "url": "http://m.estay.com/user/membersilver_introduce?seller_channel_id=228",
+            "client": "[3]",
+            "image_src": "http://cdnpic.estay.com/upload/Banner/2016/11/-606323556.jpg",
+            "description": "",
+            "sort_order": 2
+        },
+        {
+            "name": "WAP充值卡充值",
+            "url": "http://m.estay.com/user/mybalances?seller_channel_id=3324",
+            "client": "[3]",
+            "image_src": "http://cdnpic.estay.com/upload/BannerPic/2017/05/05/1493993325.jpg",
+            "description": "",
+            "sort_order": 2
+        },
+        {
+            "name": "新人专享100元",
+            "url": "http://m.estay.com/couponnew/new99",
+            "client": "[3,1,2]",
+            "image_src": "http://cdnpic.estay.com/upload/Banner/2016/7/-989917335.jpg",
+            "description": "",
+            "sort_order": 3
+        },
+        {
+            "name": "精选特惠公寓",
+            "url": "http://m.estay.com/activity/activity_35.html",
+            "client": "[1,2,3]",
+            "image_src": "http://cdnpic.estay.com/upload/Banner/2016/7/1845785504.jpg",
+            "description": "",
+            "sort_order": 4
+        }
+    ]
+}
